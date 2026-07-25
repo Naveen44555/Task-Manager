@@ -4,8 +4,6 @@ A secure and scalable **Task Manager REST API** built using **Django** and **Dja
 
 The API ensures that every authenticated user can create, view, update, and delete only their own tasks.
 
----
-
 #  Features
 
 ### Authentication
@@ -80,23 +78,16 @@ task_manager_api/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task-manager-api.git
+git clone https://github.com/Naveen44555/Task-Manager.git
 ```
 
-Replace:
-
-```text
-your-username
+Github User name : https://github.com/Naveen44555
 ```
-
-with your GitHub username.
-
----
 
 ## 2. Navigate to the Project
 
 ```bash
-cd task-manager-api
+cd task_manager_api
 ```
 
 ---
@@ -374,10 +365,10 @@ pip install -r requirements.txt
 **Naveen**
 
 GitHub:
-https://github.com/your-username
+https://github.com/Naveen44555
 
 LinkedIn:
-https://www.linkedin.com/in/your-profile/
+https://www.linkedin.com/in/naveen-parthanaboina/
 
 ---
 
