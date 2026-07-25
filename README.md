@@ -36,12 +36,12 @@ The API ensures that every authenticated user can create, view, update, and dele
 
 | Technology | Purpose |
 
-Python - Programming Language 
-Django - Backend Framework 
-Django REST Framework, REST API Development 
-SQLite - Database 
-JWT (Simple JWT) - Authentication 
-Postman - API Testing 
+Python - Programming Language,
+Django - Backend Framework ,
+Django REST Framework, REST API Development ,
+SQLite - Database ,
+JWT (Simple JWT) - Authentication ,
+Postman - API Testing ,
 Django Admin - Database Management 
 
 ---
