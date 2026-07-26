@@ -7,6 +7,7 @@ class TaskAdmin(admin.ModelAdmin):
     list_display = (
         "id",
         "title",
+        "description",
         "owner",
         "status",
         "created_at",

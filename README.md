@@ -51,12 +51,12 @@ Django Admin - Database Management
 ```text
 task_manager_api/
 │
-├── taskmanager/
+├── taskmanager/       ---- Project
 │   ├── settings.py
 │   ├── urls.py
 │   └── ...
 │
-├── tasks/
+├── tasks/      ---- app
 │   ├── migrations/
 │   ├── admin.py
 │   ├── models.py

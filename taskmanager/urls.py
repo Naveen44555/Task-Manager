@@ -16,18 +16,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from tasks.views import UserRegisterView
 from rest_framework_simplejwt.views import (
     TokenObtainPairView, # built-in view provided by Simple JWT.
     TokenRefreshView,
 )
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
 
-    path('api/auth/',include('tasks.urls')),
-    
+    path('admin/', admin.site.urls),
+    path("api/auth/register/", UserRegisterView.as_view()),
     path('api/auth/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/auth/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
+    # task apis
+    path('api/',include('tasks.urls')),
 ]
 
